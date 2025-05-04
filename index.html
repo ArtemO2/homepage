@@ -4,8 +4,61 @@
     <meta charset="UTF-8" />
     <title>My Resume</title>
   </head>
-  <body>
-    <h1>Hello, I'm Artem</h1>
-    <p>This is my résumé page!</p>
-  </body>
+  <main>
+    <div class="resume">
+      <div class="container">
+        <div class="resume__block">
+          <h1 class="contact-info__header">John Smith</h1>
+          <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+  
+          <div class="contact_info_container fh">
+            <div class="contact-info__block">
+              <a class="contact-info__item" href="mailto:john.smith@example.com">
+                <span class="contact-info__item-icon-wrapper">
+                  📧
+                </span>
+                john.smith@example.com
+              </a>
+              <a class="contact-info__item" href="tel:+1234567890">
+                <span class="contact-info__item-icon-wrapper">
+                  📞
+                </span>
+                +1 (234) 567-890
+              </a>
+              <a class="contact-info__item" href="https://linkedin.com/in/johnsmith" target="_blank">
+                <span class="contact-info__item-icon-wrapper">
+                  🔗
+                </span>
+                linkedin.com/in/johnsmith
+              </a>
+              <a class="contact-info__item" href="https://github.com/johnsmith" target="_blank">
+                <span class="contact-info__item-icon-wrapper">
+                  💻
+                </span>
+                github.com/johnsmith
+              </a>
+            </div>
+  
+            <div class="contact-info__block contact-info__block--center">
+              <img
+                class="contact-info__avatar"
+                src="assets/avatar.png"
+                alt="Avatar"
+              />
+            </div>
+          </div>
+        </div>
+  
+        <div class="resume__block">
+          <div class="intro">
+            <div class="intro__icon-wrapper">💬</div>
+            <p class="intro_text">
+              Full-stack developer with 3+ years of experience building modern web applications using React, Node.js, and PostgreSQL. Passionate about clean code, performance optimization, and solving real-world problems with scalable solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
 </html>
